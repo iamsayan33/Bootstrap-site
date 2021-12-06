@@ -1,0 +1,180 @@
+body
+{
+    text-align: center;
+    height: 187.5rem;
+}
+
+
+h1,h2,h3
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+p
+{
+    color: #8f8f8f;
+}
+/* heading */
+.big-heading
+{
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+.section-heading
+{
+    font-size: 3rem;
+    line-height: 1.5;
+} 
+/* Containers */
+#title .container-fluid
+{
+    padding: 3% 15% 7%;
+}
+
+.container-fluid
+{
+    padding: 7% 15%;
+}
+
+
+/* Navigation bar */
+.navbar
+{
+    padding:0 0 4.5rem;
+}
+
+.navbar-brand
+{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item
+{
+    padding: 0 18px;
+}
+.nav-link
+{
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+
+}
+
+/* Download  buttons */
+.download-button
+{
+    margin: 5% 3% 5% 0;
+}
+/* Title section */
+#title
+{
+    background-color: rgb(255, 85, 85);
+    color: white;
+    text-align: left;
+}
+
+/* Top image */
+.title-image
+{
+    width: 60%;
+    transform: rotate(25deg);
+}
+/* Features */
+#features
+{
+    background-color: white;
+}
+.feature-box
+{
+    padding: 5%;
+}
+.feature-title
+{
+    font-size: 1.5rem;
+}
+
+.icon
+{
+    color: rgb(255, 85, 85);
+    margin-bottom: 1rem;
+}
+.icon:hover
+{
+    color: #ff4c68;
+}
+
+/* Testimonial Section */
+#testimonials
+{
+    background-color: rgb(255, 85, 85);
+    color: white;
+}
+.testimonial-image
+{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.testimonial-text
+{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+#press
+{
+    background-color: rgb(255, 85, 85);
+    padding-bottom: 3%;  
+}
+.press-logo
+{
+    width:15%;
+    margin : 20px 20px 50px;
+}
+/* Pricing section */
+.price-text
+{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+#pricing
+{
+    padding: 100px;
+}
+.pricing-col
+{
+    padding: 3% 2%;
+}
+.sep
+{
+    position: relative;
+    top: -17.3rem;
+}
+/* CTA Section */
+#cta
+{
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.social-icon
+{
+    margin: 20px 10px;
+}
+@media (max-width:1340px)
+{
+    #title
+    {
+        text-align: center;
+    }
+    .title-image
+    {
+        transform: rotate(0);
+    }
+    .sep
+    {
+        position: static;
+    }
+}
